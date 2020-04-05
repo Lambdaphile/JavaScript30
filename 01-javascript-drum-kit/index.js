@@ -15,7 +15,7 @@ function removeTransition(event) {
   this.classList.remove('playing');
 }
 
-const keys = document.querySelectorAll('.key').forEac(key => {
+const keys = document.querySelectorAll('.key').forEach(key => {
   key.addEventListener('transitionend', removeTransition);
 });
 

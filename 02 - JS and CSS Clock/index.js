@@ -11,7 +11,7 @@ function setTime() {
   const minutes = currentTime.getMinutes();
   const minutesDegrees = ((minutes / 60) * 360) + 90;
   minuteHand.style.transform = `rotate(${minutesDegrees}deg)`;
-  
+
   const seconds = currentTime.getSeconds();
   const secondsDegrees = ((seconds / 60) * 360) - 90;
   secondHand.style.transform = `rotate(${secondsDegrees}deg)`;

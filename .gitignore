@@ -1,2 +1,3 @@
+node_modules/
 .DS_Store
-mdn-async-example
+src/mdn-async-example

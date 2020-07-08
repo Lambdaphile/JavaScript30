@@ -1,0 +1,25 @@
+{
+  "name": "javascript30",
+  "version": "1.0.0",
+  "description": "Rocking with We Bos' JavaScript30 series",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss public/tailwind/base.css -o public/tailwind/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genesis-algorithms/JavaScript30.git"
+  },
+  "author": "Genesis Algorithms",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/genesis-algorithms/JavaScript30/issues"
+  },
+  "homepage": "https://github.com/genesis-algorithms/JavaScript30#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.4",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  }
+}
